@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  background: transparent;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 500px;
+}
+
+.todo-app h1 {
+  font-size: 2.5rem;
+  color: #ff1a1a;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-shadow:
+    0 0 5px #ff1a1a,
+    0 0 10px #ff1a1a,
+    0 0 20px #ff1a1a,
+    0 0 40px #b30000,
+    0 0 60px #b30000,
+    0 0 80px #660000;
+  margin-bottom: 2rem;
+}
+
+
+

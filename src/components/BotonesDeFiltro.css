@@ -1,0 +1,19 @@
+.botones-filtro {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  gap: 1rem; 
+}
+
+.botones-filtro button {
+  padding: 12px 20px; 
+  border: none;
+  background: #1a1a1a;
+  color: #b30000;
+  border: 1px solid #b30000;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+}
